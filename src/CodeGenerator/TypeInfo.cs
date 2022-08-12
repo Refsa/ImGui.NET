@@ -52,13 +52,16 @@ namespace CodeGenerator
             { "ImVec2[2]", "Vector2*" },
             { "char* []", "byte**" },
             { "unsigned char[256]", "byte*"},
+
+            { "ImPlotFormatter", "void*" },
+            { "ImPlotGetter", "void*" }
         };
-        
+
         public static readonly List<string> WellKnownEnums = new List<string>()
         {
             "ImGuiMouseButton"
         };
-        
+
         public static readonly Dictionary<string, string> WellKnownFieldReplacements = new Dictionary<string, string>()
         {
             { "bool", "bool" }, // Force bool to remain as bool in type-safe wrappers.
@@ -110,7 +113,17 @@ namespace CodeGenerator
             { "sizeof(ImU32)", "sizeof(uint)"},
             { "sizeof(ImS32)", "sizeof(int)"},
             { "sizeof(ImU64)", "sizeof(ulong)"},
-            { "sizeof(ImS64)", "sizeof(long)"}
+            { "sizeof(ImS64)", "sizeof(long)"},
+
+            { "ImPlotRange()", "new ImPlotRange()" },
+            { "ImPlotRect()", "new ImPlotRect()" },
+            { "ImPlotMouseTextFlags_None", "ImPlotMouseTextFlags.None" },
+            { "ImPlotLegendFlags_None", "ImPlotLegendFlags.None" },
+            { "ImPlotBin_Sturges", "(int)ImPlotBin.Sturges" },
+            { "ImPlotCond_Once", "ImPlotCond.Once" },
+            { "ImPlotBarGroupsFlags_None", "ImPlotBarGroupsFlags.None" },
+            { "ImPlotDragToolFlags_None", "ImPlotDragToolFlags.None" },
+            { "ImPlotSubplotFlags_None", "ImPlotSubplotFlags.None" }
         };
 
         public static readonly Dictionary<string, string> IdentifierReplacements = new Dictionary<string, string>()
