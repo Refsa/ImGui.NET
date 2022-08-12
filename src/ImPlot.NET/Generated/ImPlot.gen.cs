@@ -14619,7 +14619,7 @@ namespace ImPlotNET
             int stride = sizeof(float);
             fixed (float* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesFloatPtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_FloatPtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14649,7 +14649,7 @@ namespace ImPlotNET
             int stride = sizeof(float);
             fixed (float* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesFloatPtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_FloatPtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14678,7 +14678,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (float* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesFloatPtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_FloatPtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14709,7 +14709,7 @@ namespace ImPlotNET
             int stride = sizeof(double);
             fixed (double* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesdoublePtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_doublePtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14739,7 +14739,7 @@ namespace ImPlotNET
             int stride = sizeof(double);
             fixed (double* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesdoublePtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_doublePtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14768,7 +14768,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (double* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesdoublePtr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_doublePtr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14799,7 +14799,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14829,7 +14829,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14858,7 +14858,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (sbyte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14889,7 +14889,7 @@ namespace ImPlotNET
             int stride = sizeof(byte);
             fixed (byte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14919,7 +14919,7 @@ namespace ImPlotNET
             int stride = sizeof(byte);
             fixed (byte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14948,7 +14948,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (byte* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU8Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U8Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -14979,7 +14979,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15009,7 +15009,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15038,7 +15038,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (short* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15069,7 +15069,7 @@ namespace ImPlotNET
             int stride = sizeof(ushort);
             fixed (ushort* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15099,7 +15099,7 @@ namespace ImPlotNET
             int stride = sizeof(ushort);
             fixed (ushort* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15128,7 +15128,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (ushort* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU16Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U16Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15159,7 +15159,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15189,7 +15189,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15218,7 +15218,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (int* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15249,7 +15249,7 @@ namespace ImPlotNET
             int stride = sizeof(uint);
             fixed (uint* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15279,7 +15279,7 @@ namespace ImPlotNET
             int stride = sizeof(uint);
             fixed (uint* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15308,7 +15308,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (uint* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU32Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U32Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15339,7 +15339,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15369,7 +15369,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15398,7 +15398,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (long* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesS64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_S64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15429,7 +15429,7 @@ namespace ImPlotNET
             int stride = sizeof(ulong);
             fixed (ulong* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15459,7 +15459,7 @@ namespace ImPlotNET
             int stride = sizeof(ulong);
             fixed (ulong* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15488,7 +15488,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (ulong* native_ys = &ys)
             {
-                ImPlotNative.ImPlot_PlotHLinesU64Ptr(native_label_id, native_ys, count, offset, stride);
+                ImPlotNative.ImPlot_PlotHLines_U64Ptr(native_label_id, native_ys, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15941,7 +15941,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -15973,7 +15973,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16004,7 +16004,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16034,7 +16034,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16063,7 +16063,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (sbyte* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_8PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16251,7 +16251,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16283,7 +16283,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16314,7 +16314,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16344,7 +16344,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16373,7 +16373,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (short* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_16PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16561,7 +16561,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16593,7 +16593,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16624,7 +16624,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16654,7 +16654,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16683,7 +16683,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (int* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_32PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16871,7 +16871,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16903,7 +16903,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16934,7 +16934,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16964,7 +16964,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -16993,7 +16993,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (long* native_values = &values)
             {
-                ImPlotNative.ImPlot_PlotLineS64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
+                ImPlotNative.ImPlot_PlotLines_64PtrInt(native_label_id, native_values, count, xscale, x0, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -17379,7 +17379,7 @@ namespace ImPlotNET
             {
                 fixed (sbyte* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17412,7 +17412,7 @@ namespace ImPlotNET
             {
                 fixed (sbyte* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17444,7 +17444,7 @@ namespace ImPlotNET
             {
                 fixed (sbyte* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_8PtrS8Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17577,7 +17577,7 @@ namespace ImPlotNET
             {
                 fixed (short* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17610,7 +17610,7 @@ namespace ImPlotNET
             {
                 fixed (short* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17642,7 +17642,7 @@ namespace ImPlotNET
             {
                 fixed (short* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_16PtrS16Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17775,7 +17775,7 @@ namespace ImPlotNET
             {
                 fixed (int* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17808,7 +17808,7 @@ namespace ImPlotNET
             {
                 fixed (int* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17840,7 +17840,7 @@ namespace ImPlotNET
             {
                 fixed (int* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_32PtrS32Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -17973,7 +17973,7 @@ namespace ImPlotNET
             {
                 fixed (long* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -18006,7 +18006,7 @@ namespace ImPlotNET
             {
                 fixed (long* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -18038,7 +18038,7 @@ namespace ImPlotNET
             {
                 fixed (long* native_ys = &ys)
                 {
-                    ImPlotNative.ImPlot_PlotLineS64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
+                    ImPlotNative.ImPlot_PlotLines_64PtrS64Ptr(native_label_id, native_xs, native_ys, count, offset, stride);
                     if (label_id_byteCount > Util.StackAllocationSizeLimit)
                     {
                         Util.Free(native_label_id);
@@ -33128,7 +33128,7 @@ namespace ImPlotNET
             int stride = sizeof(float);
             fixed (float* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesFloatPtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_FloatPtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33158,7 +33158,7 @@ namespace ImPlotNET
             int stride = sizeof(float);
             fixed (float* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesFloatPtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_FloatPtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33187,7 +33187,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (float* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesFloatPtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_FloatPtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33218,7 +33218,7 @@ namespace ImPlotNET
             int stride = sizeof(double);
             fixed (double* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesdoublePtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_doublePtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33248,7 +33248,7 @@ namespace ImPlotNET
             int stride = sizeof(double);
             fixed (double* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesdoublePtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_doublePtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33277,7 +33277,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (double* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesdoublePtr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_doublePtr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33308,7 +33308,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33338,7 +33338,7 @@ namespace ImPlotNET
             int stride = sizeof(sbyte);
             fixed (sbyte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33367,7 +33367,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (sbyte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33398,7 +33398,7 @@ namespace ImPlotNET
             int stride = sizeof(byte);
             fixed (byte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33428,7 +33428,7 @@ namespace ImPlotNET
             int stride = sizeof(byte);
             fixed (byte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33457,7 +33457,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (byte* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU8Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U8Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33488,7 +33488,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33518,7 +33518,7 @@ namespace ImPlotNET
             int stride = sizeof(short);
             fixed (short* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33547,7 +33547,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (short* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33578,7 +33578,7 @@ namespace ImPlotNET
             int stride = sizeof(ushort);
             fixed (ushort* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33608,7 +33608,7 @@ namespace ImPlotNET
             int stride = sizeof(ushort);
             fixed (ushort* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33637,7 +33637,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (ushort* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU16Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U16Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33668,7 +33668,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33698,7 +33698,7 @@ namespace ImPlotNET
             int stride = sizeof(int);
             fixed (int* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33727,7 +33727,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (int* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33758,7 +33758,7 @@ namespace ImPlotNET
             int stride = sizeof(uint);
             fixed (uint* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33788,7 +33788,7 @@ namespace ImPlotNET
             int stride = sizeof(uint);
             fixed (uint* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33817,7 +33817,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (uint* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU32Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U32Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33848,7 +33848,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33878,7 +33878,7 @@ namespace ImPlotNET
             int stride = sizeof(long);
             fixed (long* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33907,7 +33907,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (long* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesS64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_S64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33938,7 +33938,7 @@ namespace ImPlotNET
             int stride = sizeof(ulong);
             fixed (ulong* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33968,7 +33968,7 @@ namespace ImPlotNET
             int stride = sizeof(ulong);
             fixed (ulong* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
@@ -33997,7 +33997,7 @@ namespace ImPlotNET
             else { native_label_id = null; }
             fixed (ulong* native_xs = &xs)
             {
-                ImPlotNative.ImPlot_PlotVLinesU64Ptr(native_label_id, native_xs, count, offset, stride);
+                ImPlotNative.ImPlot_PlotVLines_U64Ptr(native_label_id, native_xs, count, offset, stride);
                 if (label_id_byteCount > Util.StackAllocationSizeLimit)
                 {
                     Util.Free(native_label_id);
